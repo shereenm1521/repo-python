@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: <your-docker-image-name>
+          image: us-east1-docker.pkg.dev/sherein/my-repo/python:latest
           ports:
             - containerPort: 8081
             
